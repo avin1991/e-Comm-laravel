@@ -5,7 +5,7 @@
         <a href="#">Filter</a>
     </div>
     <div class="col-sm-4">
-    <div class="trending-wrapper">
+        <div class="trending-wrapper">
     <h4>Result for Products</h4>
     <div class="carousel-inner">
     @foreach($products as $item)
