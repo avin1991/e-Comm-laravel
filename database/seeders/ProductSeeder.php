@@ -18,32 +18,39 @@ class ProductSeeder extends Seeder
         //
         DB::table('products')->insert([
             [
+                'name'=>'LG',
+                'price'=>'20000',
+                'description'=>'a smartphone with 4gb Ram',
+                'category'=>'mobile',
+                'gallery'=>'https://source.unsplash.com/featured?technology'
+            ],
+            [
                 'name'=>'Oppo',
                 'price'=>'10000',
                 'description'=>'a smartphone with 4gb Ram with 6 inches',
                 'category'=>'mobile',
-                'gallery'=>'https://unsplash.com/photos/Ftx92UKO3Xg'
+                'gallery'=>'https://source.unsplash.com/featured?technology'
             ],
             [
                 'name'=>'Samsung TV',
             'price'=>'10000',
             'description'=>'a samsung tv with classic',
             'category'=>'tv',
-            'gallery'=>'https://unsplash.com/photos/CZ6PG4ozU9c'
+            'gallery'=>'https://source.unsplash.com/featured?technology'
             ],
             [
                 'name'=>'LG TV',
             'price'=>'10000',
             'description'=>'a LG TV with standard',
             'category'=>'tv',
-            'gallery'=>'https://unsplash.com/photos/CZ6PG4ozU9c'
+            'gallery'=>'https://source.unsplash.com/featured?technology'
             ],
             [
                 'name'=>'Panasonic',
             'price'=>'10000',
             'description'=>'a frigde with 5 star',
             'category'=>'frigde',
-            'gallery'=>'https://www.samsung.com/in/refrigerators/one-door/182l-elegant-inox-rr20r1y2ys8-hl/'
+            'gallery'=>'https://source.unsplash.com/featured?technology'
             ]
 
             
